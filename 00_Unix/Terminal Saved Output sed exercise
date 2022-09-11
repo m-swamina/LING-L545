@@ -1,0 +1,26 @@
+Last login: Sun Sep 11 17:18:29 on ttys002
+➜  ~ uconv -x lower < wiki.txt| gsed 's/[aeiou].*//'|sort| uniq -c| sort -rn>initial-consonants.hist
+➜  ~ head initial-consonants.hist
+134589 
+13689 l
+10427 s
+10131 c
+9468 m
+7602 ch
+7566 p
+7319 t
+6440 b
+6222 d
+➜  ~ uconv -x lower < wiki.txt|gsed 's/.*[aeiou]//'|sort|uniq -c|sort -rn|less > final-consonants.hist
+➜  ~ head final-consonants.hist
+64724 .
+48739 
+22078 :
+18108 s.
+9417 b/km².
+5449 s:
+4963 l.
+3887 r.
+3223 ".
+2839 n:
+➜  ~ 
