@@ -1,0 +1,75 @@
+Multichar_Symbols 
+
+%<noun%>	! Noun
+%<singular%>    ! Singular
+%<plural%>      ! Plural
+
+
+
+LEXICON Root
+
+Noun;
+
+LEXICON N-1
+
+%<noun%>:  P1 ;
+
+LEXICON NS-1
+
+%<noun%>: S1 ;
+
+LEXICON P1
+
+%<plural%>:%> #; !"s"
+
+LEXICON S1
+
+%<singular%>:%> #; !"noun_itself"
+
+LEXICON Noun
+
+stylo:stylos N-1 ; ! "pen, pens"
+stylo:stylo NS-1 ; ! "pen, pen" 
+livre:livres N-1 ; ! "book, books"
+livre:livre NS-1 ; ! "book, book"
+cinéma:cinémas N-1 ; ! "theater, theaters"
+cinéma:cinéma NS-1 ; ! "theater, theater"
+professeur:professeurs N-1 ; ! "professor, professors"
+professeur:professeur NS-1 ; ! "professor, professor"
+chien:chiens N-1 ; ! "dog, dogs"
+chien:chien NS-1 ; ! "dog: dog"
+éléphant:éléphants N-1 ; ! "elephant, elephants"
+éléphant:éléphant NS-1 ; ! "elephant, elephant"
+animal:animaux N-1 ; ! "animal, animals"
+animal:animal NS-1 ; ! "animal, animal"
+cheval:chevaux N-1 ; ! "horse, horses"
+cheval:cheval NS-1 ; ! "horse, horse"
+journal:journaux N-1 ; ! "newspaper, newspapers"
+journal:journal NS-1 ; ! "newspaper, newspaper"
+château:châteaux N-1 ; ! "castle, castles"
+château:château NS-1 ; ! "castle, castle"
+neveu:neveux N-1 ; ! "nephew, nephews"
+neveu:neveu NS-1 ; ! "nephew, nephew"
+oeil:yeux N-1 ; ! "eye, eyes"
+oeil:oeil NS-1 ; ! "eye, eye"
+monsieur:monsieurs N-1 ; ! "man, men"
+monsieur:monsieur NS-1 ; ! "man, man"
+madame:madames N-1 ; ! "woman, women"
+madame:madame NS-1 ; ! "woman, woman"
+mademoiselle:mademoiselles N-1 ; ! "young woman, young women"
+mademoiselle:mademoiselle NS-1 ; ! "young woman, young woman"
+billet:billets N-1 ; ! "ticket, tickets"
+billet:billet NS-1 ; ! "ticket, ticket"
+hibou:hiboux N-1 ; ! "owl, owls"
+hibou:hibou NS-1 ; ! "owl, owl"
+joujou:joujoux N-1 ; ! "toy, toys"
+joujou:joujou NS-1 ; ! "toy, toy"
+carnaval:carnavaux N-1 ; ! "carnival, carnivals"
+carnaval:carnaval NS-1 ; ! "carnival, carnical"
+
+ 
+
+
+
+
+
